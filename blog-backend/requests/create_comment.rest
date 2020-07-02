@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/blogs/5efcfcfa02f9ad6d4f11d23a/comments
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5vZ28iLCJpZCI6IjVlZTI4NTI0YTkzODhmNDZhYjUyZGEzZiIsImlhdCI6MTU5MTk1ODI1Nn0.cjzzvoqNvj_hEBprQUYN1rbKfNE44125DgZW_Bh_Z0k
+
+{
+	"text": "Noch ein Comment, Baby",
+	"userId": "5ee28524a9388f46ab52da3f"
+}
